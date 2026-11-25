@@ -22,6 +22,8 @@ Three real improvements in the revision below:
    is now officially running your Monday.
 
 The final line is 99 characters, one line, no trailing newline.
+Verified by running the program twice into separate directories and
+comparing the outputs byte for byte — they are identical.
 The program writes it to $MAKEFUN_OUTPUT_DIR/entry.txt (default
 /output). Python 3 standard library only, deterministic.
 """
